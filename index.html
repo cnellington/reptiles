@@ -1,85 +1,65 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Bootstrap</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class = "navbar navbar-inverse navbar-static-top">
-			<div class="container">
-				<div href="#" class="navbar-brand">Caleb Ellington</div>
-
-				<button class = "navbar-toggle" data-toggle = "collapse" data-target=".navHeaderCollapse">
-					<span class = "icon-bar"></span>
-					<span class = "icon-bar"></span>
-					<span class = "icon-bar"></span>
-				</button>
-
-				<div class = "collapse navbar-collapse navHeaderCollapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li class = "active"><a href="#">Home</a></li>
-						<li class = "dropdown">
-							<a href="#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media</a>
-						<ul class = "dropdown-menu">
-							<li><a href = "#">Twitter</a></li>
-							<li><a href = "#">Facebook</a></li>
-							<li><a href = "#">Blog</a></li>
-						</ul>
-					</li>
-						<li><a href="#">Resume</a></li>
-						<li><a href="#">About Me</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>	
-
-
-		<div class = "container">
-			<div class="jumbotron text-center">
-				<h1>Hello World!</h1>
-				<p >Caleb is a founder and former president of the LASA Synthetic Biology Club which enriches the educational aspect of this iGEM team.</p>
-				<a class = "btn btn-default">Watch Now!</a>
-				<a class = "btn btn-default btn-info">Tweet it!</a>
-			</div>
-		</div>
-
-
-		<div class= "container">
-			<div class= "row">
-				<div class = "col-md-3">
-					<h3><a href="#">Build a PC</a></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut semper metus, vel viverra nisl. Donec semper, dolor id consectetur congue, ipsum risus tincidunt lacus, ut semper justo dui non sapien. Quisque fermentum iaculis ultrices. Morbi sed turpis ut arcu efficitur tincidunt. Sed posuere risus tristique erat efficitur, auctor bibendum felis pharetra. Etiam eget tristique sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ullamcorper lacus in urna porta, in varius orci egestas.</p>
-					<a href="#" class="btn btn-default btn-primary">Read More</a>
-				</div>
-				<div class = "col-md-3">
-					<h3><a href="#">Build a PC</a></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut semper metus, vel viverra nisl. Donec semper, dolor id consectetur congue, ipsum risus tincidunt lacus, ut semper justo dui non sapien. Quisque fermentum iaculis ultrices. Morbi sed turpis ut arcu efficitur tincidunt. Sed posuere risus tristique erat efficitur, auctor bibendum felis pharetra. Etiam eget tristique sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ullamcorper lacus in urna porta, in varius orci egestas.</p>
-					<a href="#" class="btn btn-default btn-primary">Read More</a>
-				</div>
-				<div class = "col-md-3">
-					<h3><a href="#">Build a PC</a></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut semper metus, vel viverra nisl. Donec semper, dolor id consectetur congue, ipsum risus tincidunt lacus, ut semper justo dui non sapien. Quisque fermentum iaculis ultrices. Morbi sed turpis ut arcu efficitur tincidunt. Sed posuere risus tristique erat efficitur, auctor bibendum felis pharetra. Etiam eget tristique sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ullamcorper lacus in urna porta, in varius orci egestas.</p>
-					<a href="#" class="btn btn-default btn-primary">Read More</a>
-				</div>
-				<div class = "col-md-3">
-					<h3><a href="#">Build a PC</a></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut semper metus, vel viverra nisl. Donec semper, dolor id consectetur congue, ipsum risus tincidunt lacus, ut semper justo dui non sapien. Quisque fermentum iaculis ultrices. Morbi sed turpis ut arcu efficitur tincidunt. Sed posuere risus tristique erat efficitur, auctor bibendum felis pharetra. Etiam eget tristique sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ullamcorper lacus in urna porta, in varius orci egestas.</p>
-					<a href="#" class="btn btn-default btn-primary">Read More</a>
-				</div>
-			</div>
-		</div>
-
-		<div class = "navbar navbar-default navbar-fixed-bottom" style="margin-top:50px">
-			<div class = "container">
-				<p class = "navbar-text pull-left">Site Built by Caleb Ellington</p>
-				<a href = "https://www.kickstarter.com/projects/461687407/kickstarter-open-source-death-star" class = "navbar-btn btn-success btn pull-right">Support the Kickstarter</a>
-			</div>
-		</div>
-		
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Reptile Website</title>
+        <meta name="description" content="A quick view of some reptiles">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    </head>
+    
+    <body>
+        <div id="main">
+            
+            <!-- Header/Title -->
+            <div id="header">
+                <h1>Reptile Website</h1>
+                <p id="info"><em>A place to learn about reptiles and see how they work in neature</em></p>
+            </div>
+            <br>
+            
+            <!-- Entries -->
+            <div class = "entry">
+                <a href="https://en.wikipedia.org/wiki/Marine_iguana"><img src="Galapagos_Iguana_02.jpg"/></a>
+                <a href="https://en.wikipedia.org/wiki/Marine_iguana"><h3>Marine Iguana</h3></a>
+                <p class = "description">The marine iguana (Amblyrhynchus cristatus) is an iguana found only on the Galápagos Islands that has the ability, unique among modern lizards, to forage in the sea, making it a marine reptile. The iguana can dive over 9 m (30 ft) into the water. It has spread to all the islands in the archipelago, and is sometimes called the Galápagos marine iguana. It mainly lives on the rocky Galápagos shore to warm from the comparably cold water, but can also be spotted in marshes and mangrove beaches.</p>
+            </div>
+            
+            <div class = "entry">
+                <a href="https://en.wikipedia.org/wiki/Dactyloidae"><img src="Green_anole.jpg"/></a>
+                <a href="https://en.wikipedia.org/wiki/Dactyloidae"><h3>Green Anole</h3></a>
+                <p class = "description">Due to their ability to change color, anolis (anole) lizards are frequently referred to as American chameleons. Also, because they can run up walls, they are sometimes confused with geckos. They are not closely related to either of those groups and, in fact, are more closely related to iguanas.</p>
+            </div>
+            
+            <div class = "entry">
+                <a href="https://en.wikipedia.org/wiki/Blue-tongued_skink"><img src="1280px-Tiliqua_scincoides_scincoides.jpg"/></a>
+                <a href="https://en.wikipedia.org/wiki/Blue-tongued_skink"><h3>Blue-tongued Skink</h3></a>
+                <p class = "description">Blue-tongued skinks comprise the Australasian genus Tiliqua, which contains some of the largest members of the skink family (Scincidae). They are commonly called blue-tongued lizards or simply blue-tongues in Australia. As suggested by these common names, a prominent characteristic of the genus is a large blue tongue that can be bared as a bluff-warning to potential enemies. Blue-tongued skinks are also bred in captivity and sold as house pets.</p>
+            </div>
+            
+            <div class = "entry">
+                <a href="https://en.wikipedia.org/wiki/Horned_lizard"><img src="1280px-Horned_lizard_032507_kdh.jpg"/></a>
+                <a href="https://en.wikipedia.org/wiki/Horned_lizard"><h3>Horned Lizard</h3></a>
+                <p class = "description">Horned lizards are a genus (Phrynosoma) of lizards which are the type genus of the family Phrynosomatidae. The horned lizard is popularly called a "horned toad", "horny toad" or "horned frog", yet it is neither a toad nor a frog. The popular names come from the lizard's rounded body and blunt snout, which make it resemble a toad or frog (Phrynosoma literally means "toad-bodied"). The spines on its back and sides are made from modified scales, whereas the horns on the heads are true horns (i.e. they have a bony core). Of 15 species of horned lizards in North America, eight are native to the United States.</p>
+            </div>
+            
+            <div class = "entry">
+                <a href="https://en.wikipedia.org/wiki/Basiliscus_(genus)"><img src="1280px-Brown-basilisk-detail.jpg"/></a>
+                <a href="https://en.wikipedia.org/wiki/Basiliscus_(genus)"><h3>Basalisk Lizard</h3></a>
+                <p class = "description">Basiliscus is a genus of large corytophanid lizards, commonly known as basilisks, which are endemic to southern Mexico, Central America, and northern South America. They are commonly known as the Jesus Christ Lizard, or simply the Jesus Lizard, due to their ability to run across water for significant distances before sinking.</p>
+            </div>
+            
+            <div class = "entry">
+                <a href="https://en.wikipedia.org/wiki/Pogona"><img src="1280px-Pogona_vitticeps02.jpg"/></a>
+                <a href="https://en.wikipedia.org/wiki/Pogona"><h3>Bearded Dragon</h3></a>
+                <p class = "description">Pogona is a genus of reptiles containing eight lizard species, which are often known by the common name bearded dragons. The name "bearded dragon" refers to the "beard" of the lizard, the underside of the throat which turns black if they are stressed or see a potential rival. They are adept climbers, spending time on branches and in bushes and near human habitation. Pogona species bask on rocks and exposed branches in the mornings and afternoons. They are found throughout much of Australia in a wide range of habitats such as deserts, shrublands and Eucalyptus woodlands.</p>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class = "footer">
+            <div class = "line"></div>
+            <h6 id = "attribution" class="footer"><em>Created by Caleb Ellington</em></h6>
+            <h6 id = "date" class="footer">11/1/15</h6>
+        </div>
+    </body>
 </html>
